@@ -18,7 +18,7 @@ Here's how gradient descent works:
 
 5)**Result**: The final set of parameters obtained after the iterations should be a local minimum of the cost function, meaning it's a point where the cost is relatively low compared to its immediate neighbors.
 
-The array 'm' is the array of the parameters to be calculated with one extra paramter 'm0' added, where m0 determines the intercept in the equation. Hence, we add an extra regressor with value '1' to the dataset.
+_**The array 'm' is the array of the parameters to be calculated with one extra paramter 'm0' added, where m0 determines the intercept in the equation. Hence, we add an extra regressor with value '1' to the dataset.**_
 
 
 There are variations of gradient descent, including:
