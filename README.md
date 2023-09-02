@@ -18,6 +18,9 @@ Here's how gradient descent works:
 
 5)**Result**: The final set of parameters obtained after the iterations should be a local minimum of the cost function, meaning it's a point where the cost is relatively low compared to its immediate neighbors.
 
+The array 'm' is the array of the parameters to be calculated with one extra paramter 'm0' added, where m0 determines the intercept in the equation. Hence, we add an extra regressor with value '1' to the dataset.
+
+
 There are variations of gradient descent, including:
 
 _Stochastic Gradient Descent (SGD)_: Updates the parameters using a single random training example at each iteration. This can lead to faster convergence but can also introduce more noise.
@@ -32,8 +35,27 @@ _Adaptive Learning Rate Methods_: These methods adjust the learning rate during 
 
 Gradient descent is a fundamental optimization technique used in training a wide range of machine learning models, including linear regression, logistic regression, neural networks, and many others. Its effectiveness relies on the convexity and smoothness of the cost function, and its efficiency can be improved with various optimization techniques and variants.
 
+**Result for the example case:**
+
+The Learning Rate was set to 0.0000001 and number of iterations at 100.
+The rate of change in Cost starts decreasing around 20 iterations and the final value of cost is obtained as **0.006139103402396587**
+
+For this cost value, the parameters are :
+
+                                                  m0=4.38270335e-04
+                                                  m1=6.36192283e-03
+                                                  m2=2.02197886e-02
+                                                  m3=4.44855399e-01
+                                                  m4=3.39074788e-02
+
 
 <img width="208" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-Using-Gradient-Descent/assets/106268100/0af5a270-e1fe-424e-9402-2ae274003be2">
 
 <img width="193" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-Using-Gradient-Descent/assets/106268100/c6f16210-d4fc-4b6f-8942-b8c6d901e2f2">
+
+<img width="183" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-Using-Gradient-Descent/assets/106268100/9056f41c-03e4-4784-b10a-31cd1a539b55">
+
+<img width="361" alt="image" src="https://github.com/RonSheoran123/Linear-Regression-Using-Gradient-Descent/assets/106268100/5d088b4a-ed31-472d-985c-dcd0c64fc4f9">
+
+
 
